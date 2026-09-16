@@ -2,36 +2,45 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kasir Digital Pro</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-    html, body {
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
       background-color: #f8fafc;
+      color: #334155;
     }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
+    .loader-box {
+      text-align: center;
+    }
+    .spinner {
+      border: 4px solid #e2e8f0;
+      border-top: 4px solid #3b82f6;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 16px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
   </style>
+  <script>
+    // Langsung arahkan ke URL Web App Apps Script kamu
+    window.location.href = "https://script.google.com/macros/s/AKfycbxlntzSQmUXsDnhKOBHPelf5-RAiqqFfHh9mVlIvNrkiMrY3LgW6fmIUjUd35dfEqXe/exec";
+  </script>
 </head>
 <body>
-
-  <!-- Tempelkan Link Deploy Apps Script Kamu Di Sini -->
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbxlntzSQmUXsDnhKOBHPelf5-RAiqqFfHh9mVlIvNrkiMrY3LgW6fmIUjUd35dfEqXe/exec"
-    allow="clipboard-read; clipboard-write;"
-    sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-  </iframe>
-
+  <div class="loader-box">
+    <div class="spinner"></div>
+    <p>Mengarahkan ke <strong>Kasir Digital Pro</strong>...</p>
+  </div>
 </body>
 </html>
