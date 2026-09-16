@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Kasir Digital Pro</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f8fafc;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- GANTI LINK DI BAWAH DENGAN LINK DEPLOY WEB APP GOOGLE APPS SCRIPT KAMU -->
+  
+  <iframe src="https://script.google.com/macros/s/AKfycbxlntzSQmUXsDnhKOBHPelf5-RAiqqFfHh9mVlIvNrkiMrY3LgW6fmIUjUd35dfEqXe/exec"></iframe>
+</body>
+</html>
